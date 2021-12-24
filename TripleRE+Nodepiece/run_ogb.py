@@ -316,7 +316,7 @@ def main(args):
         double_relation_embedding=args.double_relation_embedding,
         triple_relation_embedding=args.triple_relation_embedding,
         evaluator=evaluator,
-        tokenizer=tokenizFer,
+        tokenizer=tokenizer,
         pooler=args.pooler,
         use_rels=args.rel_hash,
         rel_policy=args.policy,
