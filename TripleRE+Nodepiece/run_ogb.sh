@@ -1,0 +1,1 @@
+python run_ogb.py --anchors 20000 --max_paths 20 --do_train --double_relation_embedding -n 128 -adv --use_dists --model TripleRE --print_on_screen --cuda -lr 0.001 --valid_steps 50000 --log_steps 10000 --max_steps 50000 --save_checkpoint_steps 1000000 --do_valid --inverses --test_log_steps 20000 --gamma 6.0 --sample_rels 12 -a 1.0 -randomSeed 0 --val_inverses --do_test -tr
