@@ -15,6 +15,9 @@ cd TripleRE+Nodepiece && sh download.sh
 ```bash
 cd TripleRE+Nodepiece && sh run_ogb.sh
 ```
+## Note
+This code is the implementation of TripleREv2 + Nodepiece
+
 
 ### ogbl-wikikg2
 Please update ogb package to version 1.3.2. 

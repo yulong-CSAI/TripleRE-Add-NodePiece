@@ -141,13 +141,13 @@ def save_model(model, optimizer, save_variable_list, args):
         os.path.join(args.save_path, 'checkpoint')
     )
 
-    entity_embedding = model.anchor_embeddings.detach().cpu().numpy()
+    entity_embedding = model.anchor_embeddings.weight.detach().cpu().numpy()
     np.save(
         os.path.join(args.save_path, 'anchor_embedding'),
         entity_embedding
     )
 
-    relation_embedding = model.relation_embedding.detach().cpu().numpy()
+    relation_embedding = model.relation_embedding.weight.detach().cpu().numpy()
     np.save(
         os.path.join(args.save_path, 'relation_embedding'),
         relation_embedding
