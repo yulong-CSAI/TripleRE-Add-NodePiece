@@ -21,4 +21,4 @@ This code is the implementation of TripleREv2 + Nodepiece
 
 ### ogbl-wikikg2
 Please update ogb package to version 1.3.2. 
-The details of the optional hyperparameters can be found in examples.sh.
+The details of the optional hyperparameters can be found in run_ogb.sh.
